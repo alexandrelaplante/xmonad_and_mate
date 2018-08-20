@@ -9,7 +9,7 @@ install_xmonad:
 configure_mate_session:
 	cp xmonad.desktop /usr/share/applications/xmonad.desktop
 	cp xmonad-mate.desktop /usr/share/xsessions/xmonad-mate.desktop
-	mateconftool-2 -s /desktop/mate/session/required_components/windowmanager xmonad --type string
+	gsettings set org.mate.session.required-components windowmanager "'xmonad'"
 .PHONY: configure_mate_session
 
 configure_xmonad: install_xmonad
