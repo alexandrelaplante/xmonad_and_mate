@@ -23,7 +23,7 @@ The `mateconf-2` step in the `Makefile` seems to be broken. Perhaps it doesn't w
 Installation
 ------------
 
-    git clone git://github.com/fcostin/xmonad_and_mate.git
+    git clone git://github.com/alexandrelaplante/xmonad_and_mate.git
     cd xmonad_and_mate
     sudo make
 
